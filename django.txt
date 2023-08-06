@@ -1,0 +1,48 @@
+pip install django;install django
+django-admin startproject projectname; create project
+manage.py- first marun hune
+settings.py-configurstion garne part-
+python manage.py runsever--
+pip install virtualenv=virtual enviroment install
+python -m venv myenv(new enviroment create gareko)
+source myenv/bin/activate(virtual enviroment vitra jane)
+python3 manage.py startapp filename(naya app banauna)
+a)models.py(database ko kaam haru garne)
+b)views.py(logical kaam haru hune)
+
+deactivate-virtual enviroment baira aaune
+
+django architecture:
+1) sabai configuration euta folder ma huncha eg settings.py, urls.py
+2) first ma manage.py run huncha
+
+Architecture(MVT MA HUNCHA(MODEL VIEW TEMPLATE))
+MODEL-database
+views-backend/logical
+template-frontend
+
+template register garnu settings.py ko template ma BASE_DIR/'filename'
+afule banako app installed app ma lekhne
+
+urls.py
+  #registered app
+    path('todo/',include("todo_app.urls"))
+    app register garako
+    
+
+    render(dekhaunu)
+    request pass garnai parcha
+
+views.py
+
+django admin
+python3 manage.py make migrations(database ma table haru banaunu)
+python3 manage.py migrate(database ma table banaune)
+python3 manage.py create superuser(admin create gareko
+Python3 manage.py startalp app_name(to create app)
+
+
+
+Django models(database)
+
+create database table(models.py)
